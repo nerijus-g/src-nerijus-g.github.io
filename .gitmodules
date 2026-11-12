@@ -1,0 +1,3 @@
+[submodule "nerijus-g.github.io"]
+	path = nerijus-g.github.io
+	url = git@github.com:nerijus-g/nerijus-g.github.io.git

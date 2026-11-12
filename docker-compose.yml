@@ -9,5 +9,5 @@ services:
       - 4200:4200
     volumes:
       - ./cv:/app/cv
-      - ./docs:/app/cv/dist/cv/browser/
+      - ./nerijus-g.github.io:/app/cv/dist/cv/browser/
     working_dir: /app

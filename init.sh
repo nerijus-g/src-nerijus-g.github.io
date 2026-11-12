@@ -1,6 +1,6 @@
 #!/bin/bash
 session='angular'
-PROJECT_ROOT='~/projects/nerijus-g.github.io'
+PROJECT_ROOT='~/projects/src-nerijus-g.github.io'
 
 
 pkgs='tmux docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin'
