@@ -1,0 +1,46 @@
+header {
+  display: grid;
+  min-width: 300px;
+  width: 90%;
+  margin: auto;
+  grid-template-columns: 100px 1fr;
+  column-gap: 5%; 
+  height: 170px;
+}
+
+#site-title, #site-title-span {
+  color: blue;
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 200%;
+}
+
+#site-title-span {
+  margin-left: 20px;
+}
+
+header, body {
+  min-width: 300px;
+  width: 90%;
+  margin: auto;
+}
+
+#photo-wrapper {
+    height: 160px;
+}
+
+#linkedin-icon {
+  width: 40px;
+  margin-top: 17px;
+  margin-left: 5px;
+}
+
+#my-photo {
+  min-height: 50px;
+  width: fit-content;
+  height: 170px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}

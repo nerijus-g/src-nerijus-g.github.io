@@ -1,0 +1,13 @@
+services:
+  nodejs:
+    container_name: nodejs-dev
+    tty: true
+    stdin_open: true
+    user: "1000:1000"
+    build: .
+    ports:
+      - 4200:4200
+    volumes:
+      - ./cv:/app/cv
+      - ./docs:/app/cv/dist/cv/browser/
+    working_dir: /app
